@@ -1,4 +1,4 @@
-import mysql from 'mysql';
+var mysql = require('mysql');
 var pool = false;
 
 var runQuery = (query, vars, cb) => {
