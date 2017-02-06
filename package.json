@@ -1,0 +1,14 @@
+{
+  "name": "ffy-db",
+  "version": "1.0.0",
+  "description": "DB Module created by Festival For You to simplify query creation",
+  "main": "db.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Phil Wiltsher",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.13.0"
+  }
+}
