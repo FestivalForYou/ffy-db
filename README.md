@@ -8,7 +8,8 @@ This module runs on top of the [mysql](https://www.npmjs.com/package/mysql) npm 
 
 ## Code Example
 
-```var db = require('ffy-db');
+```
+var db = require('ffy-db');
 var options = {
   host: '127.0.0.1',
   user: 'root',
@@ -16,7 +17,8 @@ var options = {
   database: 'database'
 }
 
-db.setup(options);```
+db.setup(options);
+```
 
 ## Disclaimer
 
