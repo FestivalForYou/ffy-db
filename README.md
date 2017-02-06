@@ -32,8 +32,12 @@ npm install ffy-db
 
 ## API Reference
 
-*Setup*
-*Select*
-*Insert*
-*Update*
-*Query*
+**Setup**
+
+**Select**
+
+**Insert**
+
+**Update**
+
+**Query**
