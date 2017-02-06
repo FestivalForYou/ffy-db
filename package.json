@@ -7,7 +7,7 @@
     "test": "test"
   },
   "author": "Phil Wiltsher",
-  "license": "ISC",
+  "license": "GPL",
   "dependencies": {
     "mysql": "^2.13.0"
   }
