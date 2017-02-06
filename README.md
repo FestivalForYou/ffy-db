@@ -26,7 +26,9 @@ This module is provided as is, and will be maintained/modified at our discretion
 
 ## Installation
 
-`npm install ffy-db
+```
+npm install ffy-db
+```
 
 ## API Reference
 
