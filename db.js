@@ -219,12 +219,17 @@ var query = (options) => {
         }
     });
   });
-}
+};
+
+var getPool = () => {
+  return pool;
+};
 
 module.exports = {
   "setup": setup,
   "select": select,
   "insert": insert,
   "update": update,
-  "query": query
+  "query": query,
+  "getPool": getPool
 }
