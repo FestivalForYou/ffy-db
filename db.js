@@ -181,7 +181,7 @@ var update = (options) => {
   if(typeof options.conditions != "undefined") {
     for(var i=0; i<options.conditions.length; i++) {
       if(i != 0) {
-        where += ", ";
+        where += " AND ";
       }
       if(options.conditions[i].length == 2) {
         where += options.conditions[i][0] + " = ?";;
