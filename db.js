@@ -204,7 +204,7 @@ var update = (options) => {
     }
     runQuery(sql, variables, (res) => {
       if(res) {
-        console.log(res);
+        resolve(res);
       } else {
         reject();
       }
